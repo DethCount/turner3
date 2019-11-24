@@ -1,0 +1,45 @@
+<head>
+    <script src="js/jquery-3.2.1.slim.js"></script>
+    <link rel="stylesheet" href="css/layout.css" />
+</head>
+<body>
+    <div>
+        <canvas id="canvas"></canvas>
+        <canvas id="canvas2"></canvas>
+    </div>
+    <div>
+        <button class="square-play">pause</button>
+        <button class="square-stop">stop</button>
+        <table class="square-info">
+            <tr><td>score</td><td><span class="square-score"></span></td></tr>
+            <tr><td>size-x</td><td><input type="number" class="square-size-x" /></td></tr>
+            <tr><td>size-y</td><td><input type="number" class="square-size-y" /></td></tr>
+            <tr><td>divs-x</td><td><input type="number" class="square-divs-x" /></td></tr>
+            <tr><td>divs-y</td><td><input type="number" class="square-divs-y" /></td></tr>
+            <tr><td>offset-x</td><td><input type="number" class="square-offset-x" /></td></tr>
+            <tr><td>offset-y</td><td><input type="number" class="square-offset-y" /></td></tr>
+            <tr><td>feed-the-beast</td><td><input type="checkbox" class="square-feed-the-beast" /></td></tr>
+            <tr><td>from-middle</td><td><input type="checkbox" class="square-from-middle" /></td></tr>
+            <tr><td>middle-size</td><td><input type="number" class="square-middle-size" /></td></tr>
+            <tr><td>from-border</td><td><input type="checkbox" class="square-from-border" /></td></tr>
+            <tr><td>border-size</td><td><input type="number" class="square-border-size" /></td></tr>
+            <tr><td>white-noise</td><td><input type="checkbox" class="square-white-noise" /></td></tr>
+            <tr><td>init-sign</td><td><input type="number" class="square-init-sign" /></td></tr>
+            <tr><td>init-diagonals</td><td><input type="number" class="square-init-diagonals" /></td></tr>
+            <tr><td>square-matrix</td><td class="square-matrix">
+                <table>
+                    <tr><td class="square-matrix-0-0"></td><td class="square-matrix-1-0"></td></tr>
+                    <tr><td class="square-matrix-0-1"></td><td class="square-matrix-1-1"></td></tr>
+                </table>
+            </td></tr>
+            <tr><td>sequence</td><td><textarea class="square-sequence"></textarea></td></tr>
+            <tr><td>sequence length</td><td><span class="square-sequence-length"></span></td></tr>
+            <tr><td colspan="2"><canvas id="sequence-canvas"></canvas></td></tr>
+            <tr><td>cw</td><td><input type="checkbox" class="square-cw" /></td></tr>
+            <tr><td>start-phase</td><td><input type="number" class="square-start-phase" /></td></tr>
+            <tr><td>feed-phase</td><td><input type="number" class="square-feed-phase" /></td></tr>
+        </table>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
